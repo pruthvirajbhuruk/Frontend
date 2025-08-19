@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { getPortfolio } from "../api";
-import Confetti from "react-confetti";
 
 export default function Portfolio({ user }) {
   const [data, setData] = useState(null);
@@ -34,3 +33,4 @@ export default function Portfolio({ user }) {
     </div>
   );
 }
+
