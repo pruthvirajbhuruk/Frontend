@@ -23,7 +23,6 @@ export default function Portfolio({ user }) {
 
   return (
     <div className="glass-card space-y-2 text-center">
-      {confetti && <Confetti />}
       <h2 className="font-bold text-xl mb-1">My Portfolio</h2>
       <p>Plan: {data.plan}</p>
       <p>Invested: {data.amount} USDT</p>
@@ -33,4 +32,5 @@ export default function Portfolio({ user }) {
     </div>
   );
 }
+
 
